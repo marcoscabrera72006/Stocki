@@ -1,0 +1,32 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.log
+~$*
+
+# LaTeX
+*.aux
+*.toc
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Secretos
+.env
