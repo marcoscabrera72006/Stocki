@@ -1,16 +1,65 @@
-# Sistema
+# OS and editors
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Editores
-.vscode/
-.idea/
-
-# Temporales
-*.tmp
-*.log
 ~$*
+.idea/
+.vscode/
+*.iml
+
+# Gradle, Kotlin and Java
+.gradle/
+.kotlin/
+build/
+target/
+out/
+*.class
+*.log
+*.hprof
+local.properties
+
+# Android and iOS
+*.apk
+*.aab
+.externalNativeBuild/
+.cxx/
+xcuserdata/
+
+# Node
+node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.pem
+*.key
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+*service-account*.json
+*firebase-adminsdk*.json
+.envrc
+id_rsa
+id_ed25519
+application-local.*
+application-secret*
+secrets.json
+secrets.properties
+secrets.yml
+secrets.yaml
+credentials.json
+passwords.txt
+
+# Database backups (Flyway .sql migrations are versioned)
+*.dump
+backups/
+
+# Temporary files
+*.tmp
 
 # LaTeX
 *.aux
@@ -24,9 +73,3 @@ desktop.ini
 __pycache__/
 .venv/
 venv/
-
-# Node
-node_modules/
-
-# Secretos
-.env
